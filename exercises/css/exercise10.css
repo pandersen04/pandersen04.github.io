@@ -3,7 +3,7 @@
     grid-template-rows: auto auto 1fr auto;
     min-height: 100vh;
 }
-h2 {
+header {
     text-align: center;
     background-color: aliceblue;
     grid-row: 1/2;
