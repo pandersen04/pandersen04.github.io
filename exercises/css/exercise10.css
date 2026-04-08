@@ -1,0 +1,56 @@
+.wrapper{
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh;
+}
+h2 {
+    text-align: center;
+    background-color: aliceblue;
+    grid-row: 1/2;
+    padding: 12px;
+}
+nav li {
+    list-style-type: none;
+    background-color: black;
+    grid-row: 2/3;
+}
+nav a {
+        text-decoration: none; 
+        color:lightgrey;
+        padding: 25px;
+    }
+nav a:hover{
+    color:palegoldenrod;
+    background-color: black;
+}
+
+nav ul {
+        display: flex;
+        grid-row: 2/3;
+        justify-content:center;
+        background-color:black;
+        padding: 25px;
+        flex-wrap: wrap;
+    }
+footer{
+    color: white;
+    background-color: black;
+    grid-row: 4/5;
+    text-align: center;
+    padding: 2rem;
+}
+h1{
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;   
+    text-align: center;
+}
+main{
+    grid-row: 3/4;
+    margin: 5px;
+}
+body{
+    margin: 0;
+}
+p{
+    text-align: center;
+}
