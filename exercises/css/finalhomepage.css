@@ -175,3 +175,93 @@ display: block;
     flex-wrap:wrap;
     justify-content: center;
 }
+.resume{
+grid-row: 2/5;
+grid-column:1/5;
+color: white;
+background-color:#477D7D;
+text-align: center;
+margin:20px;
+padding:90px;
+line-height: 30px;
+}
+.edustory{
+    grid-row: 2/3;
+    grid-column:1/5;
+    text-align: center;
+    margin:15px; 
+}
+.edustory h1 {
+    color: #477D7D;
+}
+.edustory h2{
+    color: #477D7D;
+}
+.edustory p{
+    background-color: #477D7D;
+    color:white; 
+    line-height: 30px;
+    padding: 30px;
+}
+.classlinks{
+    grid-row:3/5;
+    grid-column: 1/5;
+    text-align: center;
+    background-color: #477D7D;
+    color: white;
+    margin: 20px;
+
+}
+.classlinks a {
+        text-decoration: none; 
+        color:#ffffff;
+    }
+.classlinks a:hover{
+    color:blue;
+    text-decoration: underline;
+    }
+
+.portfolio-gallery{
+    grid: 2/5;
+    grid-column:1/5;
+}
+.photo-gallery{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.portfolio-gallery h1{
+    font-family: cursive;
+    color:#477D7D;
+    text-align: center;   
+}
+.gallery-item {
+  margin: 30px;
+  width: 250px;
+  text-align: center;
+ 
+}
+.gallery-item img {
+  width: 250px;
+  height: auto;
+object-fit:cover;
+display: block; 
+}
+.desc {
+  padding: 15px;
+  text-align: center;
+ background-color: #477D7D;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.headshotgallery{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:30px;
+}
+.headshotgallery img{
+    padding:30px; 
+    width: 400px; 
+    height: 100%;
+}
