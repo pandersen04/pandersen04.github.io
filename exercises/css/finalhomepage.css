@@ -240,6 +240,14 @@ margin: 200px;
 padding:90px;
 line-height: 30px;
 }
+.resumelinks a{
+color: white;
+}
+.resumelinks a:hover{
+    background-color: whitesmoke;
+    color:#477D7D;
+    padding:2px;
+}
 .edustory{
     grid-row: 2/3;
     grid-column:1/5;
