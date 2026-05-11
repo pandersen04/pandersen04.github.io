@@ -4,6 +4,7 @@
     grid-template-rows: 100px auto auto auto auto 1fr auto;
     min-height: 100vh;
 }
+/* NAV BAR */
 nav{
     grid-row: 1/2;
     grid-column:1/5;
@@ -70,7 +71,7 @@ nav ul {
     border: solid #477D7D;
     color:black;
 }
-
+/* HOME PAGE */
 .homeintro h1{
     color:#477D7D;
     text-align: center;
@@ -118,6 +119,18 @@ nav ul {
     grid-row: 5/6;
     grid-column: 1/5;
 }
+.homeintro p{
+    text-align: center;
+    padding:10px;
+}
+body{
+    margin:0;
+}
+ul{
+    text-align:center;
+    list-style-type: none;
+}
+/* FOOTER */
 footer{
     grid-column: 1/5;
     background-color: #477D7D;
@@ -141,17 +154,7 @@ footer a{
 footer a:hover{
     color:black;
 }
-.homeintro p{
-    text-align: center;
-    padding:10px;
-}
-body{
-    margin:0;
-}
-ul{
-    text-align:center;
-    list-style-type: none;
-}
+/* ABOUT ME */
 .aboutme{
     grid-row:2/3;
     grid-column:1/5;
@@ -222,6 +225,7 @@ display: block;
     flex-wrap:wrap;
     justify-content: center;
 }
+/* RESUME */
 .resumeheading{
     grid-row: 2/3;
     grid-column: 1/5;
@@ -248,6 +252,7 @@ color: white;
     color:#477D7D;
     padding:2px;
 }
+/* SOCIAL MEDIA EXPERIENCE */
 .edustory{
     grid-row: 2/3;
     grid-column:1/5;
@@ -287,7 +292,7 @@ color: white;
     color:black;
     text-decoration: underline;
     }
-
+/* PORTFOLIO */
 .portfolio-gallery{
     grid-row: 2/5;
     grid-column:1/5;
